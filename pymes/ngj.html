@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="../../assets/css/pymes.css">
         <link rel="stylesheet" href="../../assets/css/styles.css">
 
+        <link rel="stylesheet" type="text/css" href="../assets/css/aos.css">
 
         <script src="../assets/js/jquery-3.2.1.js"></script>
         <script src="../assets/js/script.js"></script>
@@ -59,12 +60,12 @@
         <main class="main">
             <section class="perfil">
                 <div class="portada">
-                    <div class="circulo">
-                        <img src="logongj.jpg">
+                    <div class="circulo" data-aos="fade-left">
+                        <img src="ngj/logongj.jpg">
 
                     </div>
-                        <h2 class="section__title ten">NGJ</h2>
-                        <p class="home__description s">
+                        <h2 class="section__title ten" data-aos="fade-right">NGJ</h2>
+                        <p class="home__description s" data-aos="fade-right">
                             Hola somos un pyme de diseños digitales, realizamos logos, marcas de agua, portadas, tarjeta de envio, historias destacadas, tarjetas de agradecimiento y mucho más.
                             Si deseas adquirir mis servicios puedes contáctarme por mis redes sociales.
                         </p>
@@ -77,32 +78,32 @@
                 <h2 class="productos section__title pro">Productos destacados</h2>
 
                 <div class="contenedor-productos" >
-                    <article class="item">
-                        <img src="1.jpg" alt="" class="imgproducto">
+                    <article class="item" data-aos="fade-up">
+                        <img src="ngj/1.jpg" alt="" class="imgproducto">
                         <span class="gift__title des">Logotipo</span>
                         
                         <h3 class="gift__price">$5.000</h3>
                         <a href="https://www.instagram.com/ngjoficial" target="blank" class="verpyme"><i class='bx bxl-instagram wsp'></i>Consultar</a>
                     </article>
 
-                    <article class="item">
-                        <img src="2.jpg" alt="" class="imgproducto">
+                    <article class="item" data-aos="fade-up">
+                        <img src="ngj/2.jpg" alt="" class="imgproducto">
                         <span class="gift__title des">Marca de agua</span>
                         
                         <h3 class="gift__price">$1.500</h3>
                         <a href="https://www.instagram.com/ngjoficial" target="blank" class="verpyme"><i class='bx bxl-instagram wsp'></i>Consultar</a>
                     </article>
 
-                    <article class="item">
-                        <img src="3.jpg" alt="" class="imgproducto">
+                    <article class="item" data-aos="fade-up">
+                        <img src="ngj/3.jpg" alt="" class="imgproducto">
                         <span class="gift__title des">Historias destacadas</span>
                         
                         <h3 class="gift__price">$800 c/u</h3>
                         <a href="https://www.instagram.com/ngjoficial" target="blank" class="verpyme"><i class='bx bxl-instagram wsp'></i>Consultar</a>
                     </article>
 
-                    <article class="item">
-                        <img src="4.jpg" alt="" class="imgproducto">
+                    <article class="item" data-aos="fade-up">
+                        <img src="ngj/4.jpg" alt="" class="imgproducto">
                         <span class="gift__title des"></i>Datos de deposito</span>
                         
                         <h3 class="gift__price">$3.500</h3>
@@ -117,7 +118,7 @@
             <section class="seccion-productos">
                 <h2 class="section__title pro">Contacto</h2>
 
-                <div class="contenedor-contactos">
+                <div class="contenedor-contactos" data-aos="fade-up">
                     <a class="instagram" href="https://www.instagram.com/ngjoficial" target="blank">
                         <i class='bx bxl-instagram'></i>Instagram
                     </a>
@@ -157,5 +158,13 @@
 
         <!--=============== MAIN JS ===============-->
         <script src="../../assets/js/main.js"></script>
+
+        <script src="../assets/js/aos.js"></script>
+        <script>
+            AOS.init({
+                offset:20,
+                duration: 1200
+            });
+            </script>
     </body>
 </html>
